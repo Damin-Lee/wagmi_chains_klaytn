@@ -7,7 +7,7 @@ References to popular EVM-compatible chains.
 Install the `@wagmi/chains` package.
 
 ```
-npm i @wagmi/chains
+npm install https://github.com/Damin-Lee/wagmi_chains_klaytn
 ```
 
 ## Usage
