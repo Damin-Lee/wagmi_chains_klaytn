@@ -19,7 +19,7 @@ import { configureChains } from 'wagmi'
 import { avalanche, bsc, mainnet } from '@wagmi/chains'
 
 const { chains, provider } = configureChains(
-  [mainnet, avalanche, bsc],
+  [mainnet, avalanche, bsc, klaytn],
   ...
 )
 ```
@@ -55,6 +55,8 @@ const { chains, provider } = configureChains(
 - `taraxaTestnet`
 - `zkSync`
 - `zkSyncTestnet`
+- `klaytn`
+- `klaytnBaobab`
 
 ## Contributing
 
